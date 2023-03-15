@@ -3,46 +3,19 @@
 
 <head>
     <title>WordSensei</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>WordSensei</h1>
+    <h1 align="center">WordSensei</h1>
     <form>
-        <label for="word">Enter a word:</label>
+        <label for="word">Enter a word</label>
         <input type="text" id="word" name="word">
-        <button type="submit" class="btn btn-outline-primary">Check Spelling</button>
+        <button type="submit" class="btn btn-outline-primary">Submit</button>
     </form>
-    <div id="result"></div>
-    <script>
-        // Handle form submission
-        document.querySelector('form').addEventListener('submit', (event) => {
-            event.preventDefault(); // Prevent page reload on form submission
-            const word = document.querySelector('#word').value;
-            const encodedParams = new URLSearchParams();
-            encodedParams.append("Text", word);
-            const options = {
-                method: 'POST',
-                headers: {
-                    'content-type': 'application/x-www-form-urlencoded',
-                    'X-RapidAPI-Key': '0ff664b409mshdcd19ab5b556249p127e67jsn1cf960986e39',
-                    'X-RapidAPI-Host': 'bing-spell-check2.p.rapidapi.com'
-                },
-                body: encodedParams
-            };
-            fetch('https://bing-spell-check2.p.rapidapi.com/spellcheck?mode=proof', options)
-                .then(response => response.json())
-                .then(response => {
-                    if (response.flaggedTokens.length === 0) {
-                        const resultElement = document.querySelector('#result');
-                        resultElement.innerHTML = "Word Spelling is Correct";
-                    } else {
-                        const correctedWord = response.flaggedTokens[0].suggestions[0].suggestion;
-                        const resultElement = document.querySelector('#result');
-                        resultElement.innerHTML = `Correct Spelling: <strong>${correctedWord}</strong>`;
-                    }
-                })
-                .catch(err => console.error(err));
-        });
+    <div align="center" id="result"></div>
+    <script src="javaScript.js">
     </script>
 </body>
 
