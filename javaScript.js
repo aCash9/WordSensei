@@ -1,3 +1,5 @@
+
+
 document.querySelector('form').addEventListener('submit', (event) => {
     event.preventDefault(); // Prevent page reload on form submission
     const word = document.querySelector('#word').value;
@@ -26,3 +28,4 @@ document.querySelector('form').addEventListener('submit', (event) => {
         })
         .catch(err => console.error(err));
 });
+
