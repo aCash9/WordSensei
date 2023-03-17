@@ -67,6 +67,10 @@ input[type="text"] {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+p {
+  word-wrap: break-word;
+}
+
 
 .button-85:before {
   content: "";
