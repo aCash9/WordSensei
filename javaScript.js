@@ -45,10 +45,10 @@ document.querySelector('form').addEventListener('submit', async (event) => {
   
     const definitionDiv = document.getElementById('definition');
     definitionDiv.innerHTML = `
-      <p><strong>Lexical Entries:</strong> ${lexicalEntries}</p>
-      <p><strong>Part of Speech:</strong> ${partOfSpeech}</p>
-      <p><strong>Definition:</strong> ${firstDefinition}</p>
-      <p><strong>Origin and History:</strong> ${originAndHistory}</p>
+      <p style="word-wrap: break-word;"><strong>Lexical Entries:</strong> ${lexicalEntries}</p>
+      <p style="word-wrap: break-word;"><strong>Part of Speech:</strong> ${partOfSpeech}</p>
+      <p style="word-wrap: break-word;"><strong>Definition:</strong> ${firstDefinition}</p>
+      <p style="word-wrap: break-word;"><strong>Origin and History:</strong> ${originAndHistory}</p>
     `;
   });
   
