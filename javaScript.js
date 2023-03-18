@@ -38,10 +38,11 @@ document.querySelector('form').addEventListener('submit', async (event) => {
     //Third API Google Translate
     const output = document.getElementById('translate');
     translateText(correctedWord);
-
+    
     function translateText(text) {
         const languages = ['ja', 'kn', 'es', 'fr', 'hi'];
         output.innerHTML = ''; // clear previous output
+        output.innerHTML = '<h1><strong>Translation</strong></h1>';
 
         languages.forEach((lang) => {
             const encodedParams = new URLSearchParams();
@@ -54,7 +55,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
                 headers: {
                     'content-type': 'application/x-www-form-urlencoded',
                     'Accept-Encoding': 'application/gzip',
-                    'X-RapidAPI-Key': '0ff664b409mshdcd19ab5b556249p127e67jsn1cf960986e39',
+                    'X-RapidAPI-Key': 'a5d47146eemshbe10ccb04bbbfd6p1d02e1jsn8831a4259537',
                     'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com'
                 },
                 body: encodedParams
@@ -80,6 +81,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
 
     const definitionDiv = document.getElementById('definition');
     definitionDiv.innerHTML = `
+      <p style="word-wrap: break-word;"><h1>Information on the Word</h1>
       <p style="word-wrap: break-word;"><strong>Lexical Entries:</strong> ${lexicalEntries}</p>
       <p style="word-wrap: break-word;"><strong>Part of Speech:</strong> ${partOfSpeech}</p>
       <p style="word-wrap: break-word;"><strong>Definition:</strong> ${firstDefinition}</p>

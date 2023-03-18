@@ -9,22 +9,28 @@
 
 <body>
     <h1 align="center">WordSensei</h1>
-    <form id = "form">
+    <form id="form">
         <label for="word">Enter a word</label>
         <p>
             <span class="input">
-            <input type="text" id="word" autocomplete="off">
-            <span></span> 
+                <input type="text" id="word" autocomplete="off">
+                <span></span>
             </span>
-          </p>
+        </p>
         <br>
         <button type="submit" class="button-85" role="button">Submit</button>
         <br>
     </form>
     <br>
-    <div align="center" style="color: rgb(255, 255, 255);" style="word-wrap: break-word;" id="result"></div>
-    <div align="center" style="color: rgb(255, 255, 255);" style="word-wrap: break-word;" id="definition" ></div>
-    <div align="center" style="color: rgb(255, 255, 255);" style="word-wrap: break-word;" id="translate" ></div>
+    <div align="center" style="color: rgb(255, 255, 255);" id="result"></div>
+    <br><br>
+    <div style="display: flex; justify-content: center;">
+        <div style="width: 50%; text-align: center; border-right: 1px solid white; padding-right: 10px; box-sizing: border-box; color: white;"
+            id="translate"></div>
+        <div style="width: 50%; text-align: center; padding-left: 10px; box-sizing: border-box; color: white;" id="definition" >
+            </div>
+    </div>
+
     <br>
     <script src="javaScript.js">
     </script>
