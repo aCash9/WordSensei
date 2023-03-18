@@ -34,7 +34,7 @@ information such as lexical entries, definitions, part of speech, origin, and hi
 <h2>Usage</h2>
 <list>
   <ol>
-    <li>Go to the site : [Link](https://acash9.github.io/WordSensei/template.html)</li>
+    <li>Go to the site : (https://acash9.github.io/WordSensei/template.html)</li>
     <li>Enter a word in the input field.</li>
     <li>Click "Submit".</li>
     <li>View the results, including spelling, translations, and additional information.</li>
