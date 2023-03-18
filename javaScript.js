@@ -9,7 +9,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
         method: 'POST',
         headers: {
             'content-type': 'application/x-www-form-urlencoded',
-            'X-RapidAPI-Key': '0ff664b409mshdcd19ab5b556249p127e67jsn1cf960986e39',
+            'X-RapidAPI-Key': '123',
             'X-RapidAPI-Host': 'bing-spell-check2.p.rapidapi.com'
         },
         body: encodedParams
@@ -20,7 +20,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
 
     // API 2: Merriam-Webster Dictionary
     const dictionaryRef = "collegiate";
-    const dictionaryKey = 'b1cfddca-dfe6-4b7f-8986-b04a339d7946'; // your API key
+    const dictionaryKey = '123'; // your API key
     const dictionaryOptions = {
         headers: {
             'Accept': 'application/json',
@@ -55,7 +55,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
                 headers: {
                     'content-type': 'application/x-www-form-urlencoded',
                     'Accept-Encoding': 'application/gzip',
-                    'X-RapidAPI-Key': 'a5d47146eemshbe10ccb04bbbfd6p1d02e1jsn8831a4259537',
+                    'X-RapidAPI-Key': '123',
                     'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com'
                 },
                 body: encodedParams
