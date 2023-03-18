@@ -23,7 +23,7 @@ information such as lexical entries, definitions, part of speech, origin, and hi
     <li>CSS</li>
     <li>JavaScript</li>
     <li>Google translate API</li>
-    <li>Wordnik API</li>
+    <li>Merriam-Webster API</li>
     <li>Bing Spell Check API</li>
   </ul>
 </list>
