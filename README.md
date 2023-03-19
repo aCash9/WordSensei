@@ -29,7 +29,7 @@ information such as lexical entries, definitions, part of speech, origin, and hi
 </list>
 <br>
 
-![Screenshot 2023-03-19 124628](https://user-images.githubusercontent.com/113261623/226160173-247fb1a9-01a6-4281-b4b9-150a164c631e.png)
+![Screenshot 2023-03-19 125538](https://user-images.githubusercontent.com/113261623/226160386-d1a22419-d816-4efd-8e18-82d109a06d2e.png)
 
 <h2>Usage</h2>
 <list>
