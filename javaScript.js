@@ -9,7 +9,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
         method: 'POST',
         headers: {
             'content-type': 'application/x-www-form-urlencoded',
-            'X-RapidAPI-Key': 'a5d47146eemshbe10ccb04bbbfd6p1d02e1jsn8831a4259537',
+            'X-RapidAPI-Key': '0ff664b409mshdcd19ab5b556249p127e67jsn1cf960986e39',
             'X-RapidAPI-Host': 'bing-spell-check2.p.rapidapi.com'
         },
         body: encodedParams
