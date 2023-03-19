@@ -29,7 +29,7 @@ information such as lexical entries, definitions, part of speech, origin, and hi
 </list>
 <br>
 
-![Screenshot 2023-03-18 121102](https://user-images.githubusercontent.com/113261623/226089908-ff5907cb-09a4-470c-b405-4cd5c72a2ca5.png)
+![Screenshot 2023-03-19 124628](https://user-images.githubusercontent.com/113261623/226160173-247fb1a9-01a6-4281-b4b9-150a164c631e.png)
 
 <h2>Usage</h2>
 <list>
@@ -42,5 +42,7 @@ information such as lexical entries, definitions, part of speech, origin, and hi
 </list>
 <br>
 
-![Screenshot 2023-03-18 121048](https://user-images.githubusercontent.com/113261623/226089912-7eaeea78-20a4-4e6f-9a45-a86b323dfa69.png)
+![Screenshot 2023-03-19 124550](https://user-images.githubusercontent.com/113261623/226160188-a9729752-1ef7-4fd4-9486-ed0b460db1fc.png)
+
+
 
