@@ -55,7 +55,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
                 headers: {
                     'content-type': 'application/x-www-form-urlencoded',
                     'Accept-Encoding': 'application/gzip',
-                    'X-RapidAPI-Key': 'a5d47146eemshbe10ccb04bbbfd6p1d02e1jsn8831a4259537',
+                    'X-RapidAPI-Key': '93756862e2mshfbd8a9c6c2c3e76p117d06jsn0337d6dd42a3',
                     'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com'
                 },
                 body: encodedParams
